@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.home', ['ngRoute'])
+angular.module('myApp.home', ['ui.router'])
 
 .config(['$stateProvider', function($stateProvider) {
     $stateProvider.state('/home', {

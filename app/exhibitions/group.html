@@ -1,0 +1,14 @@
+<section class="top-section">
+    <h3>{{heading}}</h3>
+    <div ng-repeat="groupPiece in groupPieces">
+        <div class="col-sm-4 ">
+            <div class="thumbnail">
+                <img ng-src="{{groupPiece.path}}">
+                <div class="caption">
+                    <p>{{groupPiece.title}}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
