@@ -4,7 +4,7 @@ var exhibitionGroupModule = angular.module('myApp.exhibitions.group', ['ui.route
 
 //resource
 exhibitionGroupModule.factory('groupPiecesResource', ['$resource', function($resource) {
-    return $resource('exhibitions/data/soloPieces.json', {}, {
+    return $resource('exhibitions/data/groupPieces.json', {}, {
         query: {method: 'GET', isArray: true}
     });
 }]);
