@@ -3,6 +3,11 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ui.router',
+  'ui.bootstrap',
+  'ngTouch',
+  'angular-loading-bar',
+  'bootstrapLightbox',
+  'ngAnimate',
   'ngResource',
   'myApp.home',
   'myApp.about',

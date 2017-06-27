@@ -33,6 +33,10 @@
   },
   "dependencies": {
     "@uirouter/angularjs": "^1.0.3",
-    "angular-resource": "^1.5.0"
+    "bootstrap": "*",
+    "angular-bootstrap": "*",
+    "angular-bootstrap-lightbox": "^0.12.0",
+    "angular-resource": "^1.5.0",
+    "angular-touch": "^1.5.0"
   }
 }
