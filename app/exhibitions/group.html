@@ -1,15 +1,13 @@
 <section class="top-section">
     <h3>{{heading}}</h3>
-    <div class="row">
-        <div ng-repeat="image in images">
-            <div class="col-xs-6 col-md-3">
-                <div class="thumbnail">
-                    <a ng-click="openLightboxModal($index)">
-                        <img ng-src="{{image.url}}" class="img-rounded img-responsive" width="171" height="180">
-                    </a>
-                    <div class="caption text-center"><h4>{{image.title}}</h4></div>
-                </div>
-            </div>
+    <div class="dynamic-grid" angular-grid="images" grid-width="300" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false">
+        <div ng-repeat="image in images" class="grid img-loaded angular-grid-item">
+            <!--<div class="col-xs-6 col-md-3">-->
+            <a ng-click="openLightboxModal($index)" class="thumbnail">
+                <img ng-src="{{image.url}}" class="img-rounded img-responsive grid-img img-loaded" >
+            </a>
+            <div class="img-desc-wrap"><h4>{{image.title}}</h4></div>
+            <!--</div>-->
         </div>
     </div>
 </section>

@@ -27,10 +27,13 @@ updatespModule.config(['$stateProvider', function($stateProvider) {
 updatespModule.controller('updatesCtrl', [
     '$scope',
     '$state',
+    'Lightbox',
     'updatesResource',
-    function($scope, $state, updatesResource) {
+    function($scope, $state, Lightbox, updatesResource) {
         $scope.heading = 'Updates'
         $scope.updatesPage = this;
+        $scope.Lightbox = Lightbox;
+
         $scope.updatesPage.posts = updatesResource.get();
         //$scope.updates = updatesResource.get();
         $scope.updatesPage.tab = 'updates';
@@ -39,6 +42,12 @@ updatespModule.controller('updatesCtrl', [
         };
         $scope.updatesPage.isSelected = function(checkTab){
             return $scope.updatesPage.tab === checkTab;
+        };
+
+        $scope.openLightboxModal = function(index) {
+            Lightbox.openModal($scope.updatesPage.posts, index, {
+                templateUrl: "core/lightbox/lightbox.html"
+            });
         };
 
     }]);

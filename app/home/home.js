@@ -3,7 +3,7 @@
 angular.module('myApp.home', ['ui.router'])
 
 .config(['$stateProvider', function($stateProvider) {
-    $stateProvider.state('home', {
+    $stateProvider.state('/home', {
     templateUrl: 'home/home.html',
     controller: 'homeCtrl'
   });

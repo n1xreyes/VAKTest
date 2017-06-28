@@ -5,9 +5,9 @@
     "postdate" : "",
     "details": "Watercolor paintings on cards ",
     "images": [
-        "images/updates/Fundacion3.jpg",
-        "images/updates/Fundacion2.jpg",
-        "images/updates/Fundacion1.jpg"
+      {"url":"images/updates/Fundacion3.jpg"},
+      {"url":"images/updates/Fundacion2.jpg"},
+      {"url":"images/updates/Fundacion1.jpg"}
         ],
     "links": []
   },
@@ -16,9 +16,7 @@
     "year": 2014,
     "postdate" : "",
     "details": "Read more <a href=\"images/updates/Elle3386%20Victoria%20Abad%20Kerblat(2)(4).pdf\" target=\"_new\">HERE</a>. <br> <p>English transcript <a href=\"images/updates/Art%20work%20of%20Mrs.%20Kerblat%208.jpg\" title=\"Suisse Elle\" target=\"_new\">HERE</a></p>",
-    "images": [
-        
-        ],
+    "images": [],
     "links": []
   },
    {
@@ -27,8 +25,8 @@
     "postdate" : "",
     "details": "First Art Map of the Philippines, a collection of watercolor paintings participated by Yaru nu artist Ivatan, Pio Abad in collaboration with Art Post Asia.<br> Printed by Ultratech printing, made of stone paper, waterproof. A community project and contribution for the people of Batanes.",
     "images": [
-        "images/updates/BatanIslandMap.jpg",
-        "images/updates/CoverPageItbayatSabtang-1.jpg"
+      {"url":"images/updates/BatanIslandMap.jpg"},
+      {"url":"images/updates/CoverPageItbayatSabtang-1.jpg"}
         ],
     "links": []
   },
@@ -38,8 +36,8 @@
     "postdate" : "",
     "details": "Plates square and round for the exhibition in Rockwell MaArte. Plates are micro able, oven and dishwater proof",
     "images": [
-        "images/updates/PlateSquare.jpg",
-        "images/updates/PlateRound.jpg"
+      {"url":"images/updates/PlateSquare.jpg"},
+      {"url":"images/updates/PlateRound.jpg"}
         ],
     "links": []
   },
@@ -49,9 +47,9 @@
     "postdate" : "",
     "details": "A celebration of the rich and artistic cultural connections between France and the Philippines",
     "images": [
-        "images/updates/MetFete1.JPG",
-        "images/updates/MetFete2.JPG",
-        "images/updates/MetFete3.JPG"
+      {"url":"images/updates/MetFete1.JPG"},
+      {"url":"images/updates/MetFete2.JPG"},
+      {"url":"images/updates/MetFete3.JPG"}
         ],
     "links": []
   },
@@ -61,9 +59,9 @@
     "postdate" : "",
     "details": "Philippine Consulate General, 5th Ave. New York. Book Launch of Javid Sawen nu Vatan and New Paintings on Batanes. It is a modest way to campaign for the preservation of old houses made of stone.",
     "images": [
-        "images/updates/NewYorkInvite-1.jpg",
-        "images/updates/IMG_3559.jpg",
-        "images/updates/IMG_1387.jpg"
+      {"url":"images/updates/NewYorkInvite-1.jpg"},
+      {"url":"images/updates/IMG_3559.jpg"},
+      {"url":"images/updates/IMG_1387.jpg}"}
         ],
     "links": []
   },
@@ -73,16 +71,16 @@
     "postdate" : "",
     "details": "It is a book that consists of 56 watercolor paintings drawn from vivid memories and nostalgic reminiscences of the artist's childhood  and life in Batanes. It also consists of some paintings contributed by young talented Ivatan artists who are committed to promoting the Ivatan heritage and inspiring the younger generation of Ivatans to appreciate art.",
     "images": [
-        "images/updates/JanFeb2012-EchoesOfThePast/Vatan.COVERFINALFLIPFRONT.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/Vatan.COVERFINALFLIPBACK.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1387_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1388_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1389_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1390_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1391_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1392_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/IMG_1393_2.jpg",
-        "images/updates/JanFeb2012-EchoesOfThePast/Lighthouse1.jpg"
+      {"url": "images/updates/JanFeb2012-EchoesOfThePast/Vatan.COVERFINALFLIPFRONT.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/Vatan.COVERFINALFLIPBACK.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1387_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1388_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1389_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1390_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1391_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1392_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/IMG_1393_2.jpg"},
+      {"url":"images/updates/JanFeb2012-EchoesOfThePast/Lighthouse1.jpg"}
         ],
     "links": []
   }

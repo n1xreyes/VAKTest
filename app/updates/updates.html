@@ -10,7 +10,7 @@
             <ul class="post-grid" ng-show="updatesPage.isSelected('updates')">
                 <li ng-repeat="post in updatesPage.posts" class="col-s-4" ng-class="{'reset-s' : $index%3==0}" ng-click="updatesPage.selectTab($index)">
                     <h3>{{post.header}}</h3>
-                    <p>{{post.details[0] | limitTo:70}}...</p>
+                    <p>{{post.details | limitTo:70}}...</p>
                 </li>
             </ul>
 
@@ -18,16 +18,15 @@
                 <div>
                     <h2>{{post.header}}</h2>
                     <!--<div ng-repeat="image in post.images">
-                        <img ng-src="{{image}}">
+                        <a ng-click="openLightboxModal($index)" class="thumbnail">
+                                <img ng-src="{{image.url}}" class="img-rounded img-responsive grid-img img-loaded" >
+                            </a>
                     </div>-->
                     <div class="dynamic-grid" angular-grid="post.images" grid-width="300" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false">
                         <div ng-repeat="image in post.images" class="grid img-loaded angular-grid-item">
-                            <!--<div class="col-xs-6 col-md-3">-->
                             <a ng-click="openLightboxModal($index)" class="thumbnail">
-                                <img ng-src="{{image}}" class="img-rounded img-responsive grid-img img-loaded" >
+                                <img ng-src="{{image.url}}" class="img-rounded img-responsive grid-img img-loaded" >
                             </a>
-                            <div class="img-desc-wrap"><h4>{{image.details}}</h4></div>
-                            <!--</div>-->
                         </div>
                     </div>
                 </div>
