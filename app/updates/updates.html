@@ -8,23 +8,27 @@
     <div class="container">
         <div class="row">
             <ul class="post-grid" ng-show="updatesPage.isSelected('updates')">
-                <li ng-repeat="post in updatesPage.posts" class="col-s-4" ng-class="{'reset-s' : $index%3==0}" ng-click="updatesPage.selectTab($index)">
+                <li ng-repeat="post in updatesPage.posts | limitTo: 10" class="col-s-4" ng-class="{'reset-s' : $index%3==0}" ng-click="updatesPage.selectTab($index)">
                     <h3>{{post.header}}</h3>
-                    <p>{{post.details | limitTo:70}}...</p>
+                    <p>{{post.details[0] | limitTo:70}}...</p>
                 </li>
             </ul>
 
             <div class="post" ng-repeat="post in updatesPage.posts" ng-show="updatesPage.isSelected($index)">
+                <div class="row">
+                    <div class="offset-s-4 col-s-4">
+                        <nav role="navigation" class="push-right">
+                            <button type="button" class="btn btn-secondary" ui-sref="updates" ng-click="updatesPage.selectTab('updates')">See All Updates</button>
+                        </nav>
+                    </div>
+                </div>
                 <div>
                     <h2>{{post.header}}</h2>
-                    <!--<div ng-repeat="image in post.images">
-                        <a ng-click="openLightboxModal($index)" class="thumbnail">
-                                <img ng-src="{{image.url}}" class="img-rounded img-responsive grid-img img-loaded" >
-                            </a>
-                    </div>-->
+                    <div class="post-body"><p ng-repeat="detail in post.details">{{detail}}</p></div>
+
                     <div class="dynamic-grid" angular-grid="post.images" grid-width="300" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false">
                         <div ng-repeat="image in post.images" class="grid img-loaded angular-grid-item">
-                            <a ng-click="openLightboxModal($index)" class="thumbnail">
+                            <a ng-click="openLightboxModal(post.images,$index)" class="thumbnail">
                                 <img ng-src="{{image.url}}" class="img-rounded img-responsive grid-img img-loaded" >
                             </a>
                         </div>

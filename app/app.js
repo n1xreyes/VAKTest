@@ -18,7 +18,7 @@ angular.module('myApp', [
   'myApp.version'
 ]).
 config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
 
@@ -28,14 +28,14 @@ config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRou
             templateUrl: 'home/home.html'
         })
 
-        //Updates
+        //Updates and multiple nested views
         .state('updates', {
             url: '/updates',
             templateUrl: 'updates/updates.html',
             controller: 'updatesCtrl'
         })
 
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        // ABOUT PAGE =================================
         .state('about', {
             url: '/about',
             templateUrl: 'about/about.html'

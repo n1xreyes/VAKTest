@@ -15,15 +15,6 @@ exhibitionSoloModule.factory('soloPiecesResource', ['$resource', function($resou
 }]);
 
 
-// state
-exhibitionSoloModule.config(['$stateProvider', function($stateProvider) {
-        $stateProvider.state('solo', {
-            url: '/solo',
-            templateUrl: 'exhibitions/solo.html',
-            controller: 'soloCtrl'
-        });
-    }]);
-
 // controller
 exhibitionSoloModule.controller('soloCtrl', [
         '$scope',

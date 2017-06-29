@@ -14,19 +14,6 @@ exhibitionGroupModule.factory('groupPiecesResource', ['$resource', function($res
     });
 }]);
 
-
-//state
-exhibitionGroupModule.config(['$stateProvider', function($stateProvider) {
-    $stateProvider.state('group', {
-        url: '/group',
-        templateUrl: 'exhibitions/group.html',
-        controller: 'groupCtrl',
-        resolve: {
-            groupPiecesResource: 'groupPiecesResource'
-        }
-    });
-}]);
-
 //controller
 exhibitionGroupModule.controller('groupCtrl', [
     '$scope',

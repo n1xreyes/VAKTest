@@ -28,6 +28,8 @@
   </style>
   <!-- angular grid css -->
   <link href="angular-grid.css" rel="stylesheet">
+  <!-- updates less -->
+  <link href="updates.less" rel="stylesheet/less" type="text/css">
   <!-- bootstrap lightbox css-->
   <link rel="stylesheet" href="bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
 
@@ -64,7 +66,7 @@
   <![endif]-->
 <!-- MAIN CONTENT -->
 <div class="container">
-  <div ui-view></div>
+  <div ui-view class="slide"></div>
 </div>
 
   <div>Angular seed app: v<span app-version></span></div>
@@ -87,6 +89,9 @@
   <script src="bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
   <!-- angular grid -->
   <script src="bower_components/angulargrid/angulargrid.js"></script>
+  <!-- less -->
+  <script src="bower_components/less/dist/less.js"></script>
+
   <script src="home/home.js"></script>
   <script src="updates/updates.js"></script>
   <script src="about/about.js"></script>

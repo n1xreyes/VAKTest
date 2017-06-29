@@ -14,15 +14,6 @@ updatespModule.factory('updatesResource', ['$resource', function($resource) {
     });
 }]);
 
-//state
-updatespModule.config(['$stateProvider', function($stateProvider) {
-    $stateProvider.state('/updates', {
-        url: '/updates',
-        templateUrl: 'updates/updates.html',
-        controller: 'updatesCtrl'
-    });
-}]);
-
 //controller
 updatespModule.controller('updatesCtrl', [
     '$scope',
@@ -44,8 +35,8 @@ updatespModule.controller('updatesCtrl', [
             return $scope.updatesPage.tab === checkTab;
         };
 
-        $scope.openLightboxModal = function(index) {
-            Lightbox.openModal($scope.updatesPage.posts, index, {
+        $scope.openLightboxModal = function(images,index) {
+            Lightbox.openModal(images, index, {
                 templateUrl: "core/lightbox/lightbox.html"
             });
         };

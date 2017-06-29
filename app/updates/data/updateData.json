@@ -1,9 +1,10 @@
 [
     {
+    "id": "1",
     "header": "2014 - Project for Fundacion Pacita",
     "year": 2014,
     "postdate" : "",
-    "details": "Watercolor paintings on cards ",
+    "details": ["Watercolor paintings on cards "],
     "images": [
       {"url":"images/updates/Fundacion3.jpg"},
       {"url":"images/updates/Fundacion2.jpg"},
@@ -12,18 +13,25 @@
     "links": []
   },
     {
+    "id": "2",
     "header": "Victoria Abad Kerblat - Paintings As Open Windows On A Personal Journey (Suisse Elle Interview)",
     "year": 2014,
     "postdate" : "",
-    "details": "Read more <a href=\"images/updates/Elle3386%20Victoria%20Abad%20Kerblat(2)(4).pdf\" target=\"_new\">HERE</a>. <br> <p>English transcript <a href=\"images/updates/Art%20work%20of%20Mrs.%20Kerblat%208.jpg\" title=\"Suisse Elle\" target=\"_new\">HERE</a></p>",
+    "details": ["Read more <a href=\"images/updates/Elle3386%20Victoria%20Abad%20Kerblat(2)(4).pdf\" target=\"_new\">HERE</a>.",
+      "English transcript <a href=\"images/updates/Art%20work%20of%20Mrs.%20Kerblat%208.jpg\" title=\"Suisse Elle\" target=\"_new\">HERE</a>"
+    ],
     "images": [],
     "links": []
   },
    {
+   "id": "3",
     "header": "2014 - Exhibition at Naydi Lighthouse",
     "year": 2014,
     "postdate" : "",
-    "details": "First Art Map of the Philippines, a collection of watercolor paintings participated by Yaru nu artist Ivatan, Pio Abad in collaboration with Art Post Asia.<br> Printed by Ultratech printing, made of stone paper, waterproof. A community project and contribution for the people of Batanes.",
+    "details": ["First Art Map of the Philippines, a collection of watercolor paintings participated by Yaru nu artist Ivatan, Pio Abad in collaboration with Art Post Asia.",
+      "Printed by Ultratech printing, made of stone paper, waterproof.",
+      "A community project and contribution for the people of Batanes."
+    ],
     "images": [
       {"url":"images/updates/BatanIslandMap.jpg"},
       {"url":"images/updates/CoverPageItbayatSabtang-1.jpg"}
@@ -31,10 +39,11 @@
     "links": []
   },
    {
+   "id": "4",
     "header": "2014 - Rockwell MaArte",
     "year": 2014,
     "postdate" : "",
-    "details": "Plates square and round for the exhibition in Rockwell MaArte. Plates are micro able, oven and dishwater proof",
+    "details": ["Plates square and round for the exhibition in Rockwell MaArte. Plates are micro able, oven and dishwater proof"],
     "images": [
       {"url":"images/updates/PlateSquare.jpg"},
       {"url":"images/updates/PlateRound.jpg"}
@@ -42,10 +51,11 @@
     "links": []
   },
   {
+    "id": "5",
     "header": "2014 - Met Fete",
     "year": 2014,
     "postdate" : "",
-    "details": "A celebration of the rich and artistic cultural connections between France and the Philippines",
+    "details": ["A celebration of the rich and artistic cultural connections between France and the Philippines"],
     "images": [
       {"url":"images/updates/MetFete1.JPG"},
       {"url":"images/updates/MetFete2.JPG"},
@@ -54,10 +64,14 @@
     "links": []
   },
   {
+    "id": "6",
     "header": "2013 - ART POST ASIA, NEW YORK, USA",
     "year": 2013,
     "postdate" : "",
-    "details": "Philippine Consulate General, 5th Ave. New York. Book Launch of Javid Sawen nu Vatan and New Paintings on Batanes. It is a modest way to campaign for the preservation of old houses made of stone.",
+    "details": ["Philippine Consulate General, 5th Ave. New York.",
+      "Book Launch of Javid Sawen nu Vatan and New Paintings on Batanes.",
+      "It is a modest way to campaign for the preservation of old houses made of stone."
+    ],
     "images": [
       {"url":"images/updates/NewYorkInvite-1.jpg"},
       {"url":"images/updates/IMG_3559.jpg"},
@@ -66,10 +80,13 @@
     "links": []
   },
   {
+    "id": "7",
     "header": "Javid sawen nu Vatan (How Beautiful is Batanes) - Fundacion Pacita in Collaboration with Art Post Asia. Batanes, Philippines, 2011",
     "year": 2011,
     "postdate" : "",
-    "details": "It is a book that consists of 56 watercolor paintings drawn from vivid memories and nostalgic reminiscences of the artist's childhood  and life in Batanes. It also consists of some paintings contributed by young talented Ivatan artists who are committed to promoting the Ivatan heritage and inspiring the younger generation of Ivatans to appreciate art.",
+    "details": ["It is a book that consists of 56 watercolor paintings drawn from vivid memories and nostalgic reminiscences of the artist's childhood  and life in Batanes.",
+      "It also consists of some paintings contributed by young talented Ivatan artists who are committed to promoting the Ivatan heritage and inspiring the younger generation of Ivatans to appreciate art."
+    ],
     "images": [
       {"url": "images/updates/JanFeb2012-EchoesOfThePast/Vatan.COVERFINALFLIPFRONT.jpg"},
       {"url":"images/updates/JanFeb2012-EchoesOfThePast/Vatan.COVERFINALFLIPBACK.jpg"},
