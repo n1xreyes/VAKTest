@@ -24,9 +24,22 @@ updatespModule.controller('updatesCtrl', [
         $scope.heading = 'Updates'
         $scope.updatesPage = this;
         $scope.Lightbox = Lightbox;
+        $scope.maxResultsToDisplay = 5;
 
-        $scope.updatesPage.posts = updatesResource.get();
+        //$scope.updatesPage.posts = updatesResource.get();
         //$scope.updates = updatesResource.get();
+
+        //Get data and paging info
+        var deferred = updatesResource.get().$promise;
+        deferred.then(function successCallback(data) {
+            $scope.updatesPage.posts = data;
+            $scope.totalItems = data.length;
+        });
+        $scope.currentPage = 1;
+        $scope.maxSize = 5;
+        $scope.itemsPerPage = 5;
+
+
         $scope.updatesPage.tab = 'updates';
         $scope.updatesPage.selectTab = function(setTab) {
             $scope.updatesPage.tab = setTab;
