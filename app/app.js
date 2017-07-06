@@ -25,7 +25,8 @@ config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRou
     // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
-            templateUrl: 'home/home.html'
+            templateUrl: 'home/home.html',
+            controller: 'homeCtrl'
         })
 
         //Updates and multiple nested views

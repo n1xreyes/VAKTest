@@ -5,7 +5,7 @@
     <div class="lightbox-nav"><button class="close" aria-hidden=true ng-click=$dismiss()></button>
         <div class=btn-group ng-if="Lightbox.images.length > 1">
             <a class="btn btn-xs btn-default" ng-click="Lightbox.prevImage()"> Previous</a>
-            <a ng-href="{{Lightbox.imageUrl}}" target="_blank" class="btn btn-xs btn-default" title="Open in new tab">Open image in new tab</a>
+            <!--<a ng-href="{{Lightbox.imageUrl}}" target="_blank" class="btn btn-xs btn-default" title="Open in new tab">Open image in new tab</a>-->
             <a class="btn btn-xs btn-default" ng-click="Lightbox.nextImage()">Next </a>
         </div>
     </div>
@@ -16,7 +16,7 @@
     </div>
 
     <!-- caption -->
-    <div class="alert alert-info" style="margin: 1em 0 0;" ng-if="Lightbox.imageCaption">
+    <div class="well" style="margin: 1em 0 0;" ng-if="Lightbox.imageCaption">
         {{Lightbox.imageCaption}}
     </div>
 

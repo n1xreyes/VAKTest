@@ -1,0 +1,87 @@
+[
+    {
+    "id": 1,
+    "title": "View Sky",
+    "year": 0,
+      "details": "",
+    "image": "images/home/viewsky-home.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Urban",
+    "year": 0,
+    "details": "",
+    "image": "images/home/urban-home.jpg"
+  },
+   {
+    "id": 3,
+    "title": "Untitled",
+    "year": 0,
+     "details": "",
+    "image": "images/home/untitled-home.jpg"
+
+  },
+  {
+    "id": 4,
+    "title": "San Luis",
+    "year": 0,
+    "details": "",
+    "image": "images/home/sanluis-home.jpg"
+  }, 
+  {
+    "id": 5,
+    "title": "Purple",
+    "year": 0,
+    "details": "",
+    "image": "images/home/purple-home.jpg"
+  }, 
+  {
+    "id": 6,
+    "title": "Metro",
+    "year": 0,
+    "details": "",
+    "images": "images/home/metro-home.jpg"
+  }, 
+  {
+    "id": 7,
+    "title": "Marrakech",
+    "year": 0,
+    "details": "",
+    "image": "images/home/marrakech-home.jpg"
+  }, 
+  {
+    "id": 8,
+    "title": "Makati",
+    "year": 0,
+    "details": "",
+    "image": "images/home/makati-home.jpg"
+  }, 
+  {
+    "id": 9,
+    "title": "Dockyards",
+    "year": 0,
+    "details": "",
+    "image": "images/home/dockyards-home.jpg"
+  }, 
+  {
+    "id": 10,
+    "title": "Corals",
+    "year": 0,
+    "details": "",
+    "image": "images/home/corals-home.jpg"
+  }, 
+  {
+    "id": 11,
+    "title": "Baghdad",
+    "year": 0,
+    "details": "",
+    "image": "images/home/baghdad-home.jpg"
+  }, 
+  {
+    "id": 12,
+    "title": "Autoroute",
+    "year": 0,
+    "details": "",
+    "image": "images/home/autoroute-home.jpg"
+  }
+]

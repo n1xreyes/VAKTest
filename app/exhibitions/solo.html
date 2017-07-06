@@ -2,12 +2,10 @@
     <h3>{{heading}}</h3>
     <div class="dynamic-grid" angular-grid="images" grid-width="300" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false">
         <div ng-repeat="image in images" class="grid img-loaded angular-grid-item">
-            <!--<div class="col-xs-6 col-md-3">-->
                 <a ng-click="openLightboxModal($index)" class="thumbnail">
                     <img ng-src="{{image.url}}" class="img-rounded img-responsive grid-img img-loaded" >
                 </a>
-                <div class="img-desc-wrap"><h4>{{image.title}}</h4></div>
-            <!--</div>-->
+                <div class="img-desc-wrap"><h5 style="color: #222; padding-left: 10px;">{{image.title}}</h5></div>
         </div>
     </div>
 </section>

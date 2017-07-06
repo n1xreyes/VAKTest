@@ -1,1 +1,25 @@
-<p>This is the partial for view 1.</p>
+<div class="container-fluid">
+    <!--<div style="height: 305px;">
+        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+            <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                <img ng-src="{{slide.image}}" style="margin:auto;">
+                <div class="carousel-caption">
+                    <h4>Slide {{slide.id}}</h4>
+                    <p>{{slide.title}}</p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" ng-repeat="slide in slides" data-slide-to="{{slide.id}}" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox" >
+            <div class="carousel-item active" ng-repeat="slide in slides">
+                <img ng-src="{{slide.image}}">
+            </div>
+        </div>
+    </div>
+</div>
